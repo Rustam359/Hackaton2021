@@ -1,0 +1,357 @@
+body{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.announce p{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   position: relative;
+   text-align: center;
+   margin: 0;
+   top: 23px;
+   letter-spacing: 0;
+   color: white;
+   font: normal normal bold 20px/26px Roboto;
+}
+header{
+   position:absolute;
+   height: 108px;
+   background-color: #75DB4B;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+
+.search .btn{
+   position: relative;
+   right: 31px;
+   top: 20px;
+   background: url("/www/img/icon/search.png");
+   background-size: cover;
+   border: none;
+   height: 21px;
+   width: 21px;
+}
+.search{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 20%;
+   margin-left: 24px;
+}
+
+.search input{
+  position: relative;
+  width: 288px;
+  height: 44px;
+  border-radius: 10px;
+  border: none;
+  top: 8px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  padding-left: 10px;
+  box-shadow: 0px 2px 1px #00000029;
+  margin: 0;
+} 
+
+
+.adv{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:auto;
+  margin-top: 124px;
+  width: 100%;
+}
+
+.dot{
+   position: relative;
+   height: 7px;
+   width: 7px;
+   display: flex;
+   top: 10px;
+   margin-top: 260px;
+   background-color:#FFFFFF;
+   border-radius: 50%;
+   border: 0.1px solid silver;
+   display: inline-block;
+   margin-right: -3px;
+   transition: background-color 0.6s ease;
+}
+
+.adv img{
+   border-radius: 10px;
+}
+
+.content{
+   position: absolute;
+   height: auto;
+   width: 87%;
+   margin-top: 20px;
+   margin-left: 7%;
+   margin-right: 7%;
+
+}
+.content .baranina{
+   background: url('/www/img/main/baranina.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position-x: 55%;
+   margin-right: 24px;
+}
+.content .kopchenaya{
+   background: url('/www/img/main/kopchenaya.jpg');
+   background-repeat: no-repeat;
+   background-size:cover; 
+   background-position-x: 55%;
+}
+
+.content .italic{
+   background: url('/www/img/main/italic.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   margin-right: 24px;
+   background-position-x: 75%;
+}
+
+.content .arbat{
+   background: url('/www/img/main/arbat.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position-x: 50%;
+}
+
+.content .braga{
+   background: url('/www/img/main/braga.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   margin-right: 24px;
+   
+}
+.content .otbornoe{
+   background: url('/www/img/main/otbornoe.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+   
+}
+
+.content p{
+   position: relative;
+   font-weight: 600;
+   float: right;
+   top: 60%;
+   right:7px;
+   color: white;
+   text-shadow: 0px 3px 6px #00000029;
+}
+
+.content .prices{
+   position: relative;
+   padding-top: 10px;
+   padding-left: 0;
+   top: 80%;
+   height: 18px;
+   width: 47%;
+   left: 50%;
+   font-weight:bold;
+   color: #75DB4B;
+   background:white;
+   border-radius:11px;
+}
+
+.ba div p, .ko div p, .ar div p, .br div p, .ot div p, .it div p{
+   position: absolute;
+   top: -50%;
+   color: #75DB4B;
+}
+
+.content .one{
+   display: flex;
+   height: 188px;
+   margin-bottom: 15px;
+}
+
+.content .ba, .ko, .it, .ar, .br, .ot{
+   border:  none;
+   height: 100%;
+   width: 55%;
+   border-radius: 10px;
+ }
+
+.content .two{
+   display: flex;
+   height: 188px;
+   justify-content: space-between;
+   margin-bottom: 15px;
+ }
+
+.content .three{
+   display: flex;
+   height: 188px;
+   justify-content: space-between;
+   margin-bottom: 15.5%;
+ }
+
+ nav{
+    position: fixed;
+    display: flex;
+    box-shadow: 0px -4px 6px #00000029;
+    height: 45px;
+    width: 100%;
+    bottom: 0;
+    justify-content: space-around;
+    background: white 0% 0% no-repeat padding-box;
+ }
+
+ nav input{
+    width: 25px;
+    height: 29px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+   background-position: 50%;
+   background-size: 21px;
+   margin-left: 3px;
+   padding: 0;
+   border: none;
+   background-color: white;
+ }
+
+
+ nav .main input{
+    background-image: url("/www/img/icon/main.png");
+ }
+
+ nav .rolled input{
+   background-image: url("/www/img/icon/rolled.png");
+}
+
+nav .basket input{
+   background-image: url("/www/img/icon/basket.png");
+}
+
+nav .profile input{
+   background-image: url("/www/img/icon/profile.png");
+}
+
+nav .main p{
+   position: absolute;
+   top: 18px;
+   width: 27px;
+   height: 9px;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .rolled p{
+   position: absolute;
+   top: 18px;
+   width: 27px;
+   height: 9px;
+   left: 33%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .basket p{
+   position: absolute;
+   top: 18px;
+   width: 27px;
+   height: 9px;
+   left: 58%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .profile p{
+   position: absolute;
+   top: 18px;
+   width: 27px;
+   height: 9px;
+   left: 82.2%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+.saleBox .btn{
+   margin-right: 130%;
+   position: fixed;
+   width: 48px;
+   height: 48px;
+   border-radius: 50%;
+   bottom: 54px;
+   border: 2px solid #5EDA55;
+   background: white;
+
+}
+
+.saleBox{
+   display: flex;
+   justify-content: center;
+}
+
+.saleBox .sale{
+  top:120px;
+  width: 320px;
+  border-radius: 10px;
+  height: 300px;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  position: absolute;
+  padding: 12px;
+  display: none;
+}
+
+.sale p{
+   margin: 0 0 0 0;
+   position: relative;
+   left: 2%;
+}
+
+.sl p, input{
+   margin-left: 47%;
+   border-radius: 10px;
+   border: none;
+   height: 22px;
+}
+.sl .category{
+   margin-top: 10px;
+}
+.sl input{
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029; 
+}
+
+.img{
+   position: absolute;
+   width: 100%;
+   bottom: 60px;
+   max-width: 140px;
+   height: 208px;
+   border-radius: 10px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+}
+
+.addImg{
+   height: 48px;
+   width: 48px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 1px #00000029;
+   border: 3px solid #7D7D7D;
+   border-radius: 50%;
+   position: absolute;
+   left: 80px;
+   top: 145px;
+}
+
+.close{
+   position: absolute;
+   height: 17px;
+   width: 17px;
+   margin-left: 90%;
+   border: 1.5px solid #F54848;
+   border-radius: 50%;
+}

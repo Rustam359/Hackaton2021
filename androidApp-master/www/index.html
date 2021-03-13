@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ITDoctor App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <header>
+   <div class='announce'>
+    <p>Доска объявлений</p>
+   </div>
+  <div class="search">
+    <input type="search" placeholder="Поиск">
+    <button class="btn"></button>
+  </div>
+ </header>
+ 
+<main>
+
+    <div class="adv">
+      <div class="mySlides fade">
+        <img src="img/advertising/milk.png">
+      </div>
+      <div class="mySlides fade">
+       <img src="img/advertising/myryas.png">
+      </div>
+      <div class="mySlides fade">
+        <img src="img/advertising/skif.png">
+      </div>
+
+  </div>
+
+  <div style="text-align:center" class="dotMain">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+    <div class="content">
+      <div class="one">
+        <div class="baranina ba">
+           <p>Баранина</p>
+           <div class=prices><p> 1кг/250Р</p></div>
+        </div>
+        <div class='kopchenaya ko'>
+          <p>Копченная</p>
+          <div class="prices"><p>1шт/80Р</p></div>
+        </div>
+      </div>
+      <div class="two">
+        <div class='italic it'>
+          <p>Итальянский</p>
+          <div class="prices"><p>1шт/505Р</p></div>
+        </div>
+        <div class='arbat ar'>
+          <p>Арбатский</p>
+          <div class="prices"><p>1шт/305Р</p></div>
+        </div>
+      </div>
+      <div class='three'>
+        <div class='braga br'>
+          <p>Брага</p>
+          <div class='prices'><p>10кг/700Р</p></div>
+      </div>
+      <div class='otbornoe ot'>
+        <p>Отборное</p>
+        <div class='prices'><p>10кг/460Р</p></div>
+      </div>
+    </div>
+    </div>
+
+ <div class="saleBox"><input type="button" class="btn">
+  <div class="sale sl">
+    <div class="close">
+    </div>
+    <div class="img"><div class='addImg'></div></div>
+    <p class="category">Категория</p><input type="text">
+    <p class="name">Название</p><input type="text">
+    <p class='data'>Дата изготовления</p><input type="text">
+    <p class='receiv'>Способ получения</p><input type="text">
+    <p class='price'>Цена</p><input type="text">
+    <p class='pieces kg'>шт/кг</p><input type="text">
+  </div>
+</div>
+
+ <nav>
+   <div class="main"><input type="button">
+  <p>Главная</p></div>
+   <div class='rolled'><input type="button" >
+    <p>Каталог</p></div>
+   <div class='basket'><input type="button" ><p>Корзина</p></div>
+   <div class="profile"><input type="button" ><p>Профиль</p></div>
+ </nav>
+
+</main>
+ <script src="js/effects.js"></script>
+</body>
+</html>
