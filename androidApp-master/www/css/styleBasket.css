@@ -1,0 +1,152 @@
+*{
+margin: 0;
+padding: 0;
+}
+header{
+    position:absolute;
+    height: 72px;
+    background-color: #75DB4B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+
+ header p{
+     display: flex;
+     height:100%;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+     font-weight: bold;
+     color:#FFFFFF;
+     font: normal normal bold 20px/26px Roboto;
+     }
+
+     .container{
+         max-height:100%;
+         height: 100%;
+         width: 100%;
+         display: flex;
+     }
+
+     .container .odin{
+        position: absolute;
+        top: 15%;
+        width:160px;
+        height: 35%;
+        background-color: grey;
+        margin-left: 12px;
+     }
+     .container .dva{
+      position: absolute;
+      top: 15%;
+      width:160px;
+      right: 0px;
+      float: right;
+      margin-right:12px;
+      height: 35%;
+      background-color: red;
+      
+     }
+
+     .container .tri{
+      position: absolute;
+      bottom: 10%;
+      width:160px;
+      right: 0px;
+      float: right;
+      margin-right:12px;
+      height:30%;
+      background-color: blue;
+     }
+      
+     .container .two{
+      position: absolute;
+      bottom: 10%;
+      width:160px;
+      height: 30%;
+      background-color: black;
+      margin-left: 12px;
+   }
+
+ nav{
+    position: fixed;
+    display: flex;
+    box-shadow: 0px -4px 6px #00000029;
+    height: 45px;
+    width: 100%;
+    bottom: 0;
+    justify-content: space-around;
+    background: white 0% 0% no-repeat padding-box;
+ }
+
+ nav input{
+    width: 25px;
+    height: 29px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+   background-position: 50%;
+   background-size: 21px;
+   margin-left: 3px;
+   padding: 0;
+   border: none;
+   background-color: white;
+ }
+
+
+ nav .main input{
+    background-image: url("/www/img/icon/main.png");
+ }
+
+ nav .rolled input{
+   background-image: url("/www/img/icon/rolled.png");
+}
+
+nav .basket input{
+   background-image: url("/www/img/icon/basket.png");
+}
+
+nav .profile input{
+   background-image: url("/www/img/icon/profile.png");
+}
+
+nav .main p{
+   position: absolute;
+   top: 25px;
+   width: 27px;
+   height: 10px;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .rolled p{
+   position: absolute;
+   top: 25px;
+   width: 27px;
+   height: 9px;
+   left: 33%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .basket p{
+   position: absolute;
+   top: 25px;
+   width: 27px;
+   height: 9px;
+   left: 58%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+
+nav .profile p{
+   position: absolute;
+   top: 25px;
+   width: 27px;
+   height: 9px;
+   left: 82.2%;
+   font: normal normal normal 10px/9px Roboto;
+   color: black;
+}
+

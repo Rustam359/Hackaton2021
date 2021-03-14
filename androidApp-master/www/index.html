@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ITDoctor App</title>
+    <link rel="stylesheet" href="css/styleRolled.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="rolled.html">
 </head>
 <body>
  <header>
@@ -17,7 +19,7 @@
     <button class="btn"></button>
   </div>
  </header>
- 
+
 <main>
 
     <div class="adv">
@@ -41,32 +43,38 @@
 
     <div class="content">
       <div class="one">
-        <div class="baranina ba">
+        <div class="baranina ba" id="ba">
            <p>Баранина</p>
+            <button class="pay">Купить</button>
            <div class=prices><p> 1кг/250Р</p></div>
         </div>
-        <div class='kopchenaya ko'>
+        <div class='kopchenaya ko' id="ko">
           <p>Копченная</p>
+          <button class="pay">Купить</button>
           <div class="prices"><p>1шт/80Р</p></div>
         </div>
       </div>
       <div class="two">
-        <div class='italic it'>
+        <div class='italic it' id="it">
           <p>Итальянский</p>
+          <button class="pay">Купить</button>
           <div class="prices"><p>1шт/505Р</p></div>
         </div>
-        <div class='arbat ar'>
+        <div class='arbat ar' id="ar">
           <p>Арбатский</p>
+          <button class="pay">Купить</button>
           <div class="prices"><p>1шт/305Р</p></div>
         </div>
       </div>
       <div class='three'>
-        <div class='braga br'>
+        <div class='braga br' id="br">
           <p>Брага</p>
+          <button class="pay">Купить</button>
           <div class='prices'><p>10кг/700Р</p></div>
       </div>
-      <div class='otbornoe ot'>
+      <div class='otbornoe ot' id=''>
         <p>Отборное</p>
+        <button class="pay">Купить</button>
         <div class='prices'><p>10кг/460Р</p></div>
       </div>
     </div>
@@ -74,8 +82,7 @@
 
  <div class="saleBox"><input type="button" class="btn">
   <div class="sale sl">
-    <div class="close">
-    </div>
+    <div class="close"></div>
     <div class="img"><div class='addImg'></div></div>
     <p class="category">Категория</p><input type="text">
     <p class="name">Название</p><input type="text">
@@ -86,14 +93,14 @@
   </div>
 </div>
 
- <nav>
-   <div class="main"><input type="button">
-  <p>Главная</p></div>
-   <div class='rolled'><input type="button" >
-    <p>Каталог</p></div>
-   <div class='basket'><input type="button" ><p>Корзина</p></div>
-   <div class="profile"><input type="button" ><p>Профиль</p></div>
- </nav>
+<nav>
+  <div class="main"><a href="/www/index.html"><input type="button">
+ <p>Главная</p></a></div>
+  <div class='rolled'><a href="/www/rolled.html"><input type="button" >
+   <p>Каталог</p></a></div>
+  <div class='basket'><a href="/www/basket.html"><input type="button"><p>Корзина</p></a></div>
+  <div class="profile"><input type="button" ><p>Профиль</p></div>
+</nav>
 
 </main>
  <script src="js/effects.js"></script>

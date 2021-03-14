@@ -196,85 +196,116 @@ header{
  }
 
  nav{
-    position: fixed;
-    display: flex;
-    box-shadow: 0px -4px 6px #00000029;
-    height: 45px;
-    width: 100%;
-    bottom: 0;
-    justify-content: space-around;
-    background: white 0% 0% no-repeat padding-box;
- }
+   position: fixed;
+   display: flex;
+   box-shadow: 0px -4px 6px #00000029;
+   height: 45px;
+   width: 100%;
+   bottom: 0;
+   justify-content: space-around;
+   background: white 0% 0% no-repeat padding-box;
+}
 
- nav input{
-    width: 25px;
-    height: 29px;
-    margin-top: 0px;
-    background-repeat: no-repeat;
-   background-position: 50%;
-   background-size: 21px;
-   margin-left: 3px;
-   padding: 0;
-   border: none;
-   background-color: white;
- }
+nav input{
+   width: 25px;
+   height: 29px;
+   margin-top: 0px;
+   background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 21px;
+  margin-left: 3px;
+  padding: 0;
+  border: none;
+  background-color: white;
+}
 
 
- nav .main input{
-    background-image: url("/www/img/icon/main.png");
- }
+nav .main input{
+   background-image: url("/www/img/icon/main.png");
+}
 
- nav .rolled input{
-   background-image: url("/www/img/icon/rolled.png");
+nav .rolled input{
+  background-image: url("/www/img/icon/rolled.png");
 }
 
 nav .basket input{
-   background-image: url("/www/img/icon/basket.png");
+  background-image: url("/www/img/icon/basket.png");
 }
 
 nav .profile input{
-   background-image: url("/www/img/icon/profile.png");
+  background-image: url("/www/img/icon/profile.png");
 }
 
 nav .main p{
-   position: absolute;
-   top: 18px;
-   width: 27px;
-   height: 9px;
-   font: normal normal normal 10px/9px Roboto;
-   color: black;
+  position: absolute;
+  top: 25px;
+  width: 27px;
+  height: 10px;
+  font: normal normal normal 10px/9px Roboto;
+  color: black;
 }
 
 nav .rolled p{
-   position: absolute;
-   top: 18px;
-   width: 27px;
-   height: 9px;
-   left: 33%;
-   font: normal normal normal 10px/9px Roboto;
-   color: black;
+  position: absolute;
+  top: 25px;
+  width: 27px;
+  height: 9px;
+  left: 33%;
+  font: normal normal normal 10px/9px Roboto;
+  color: black;
 }
 
 nav .basket p{
-   position: absolute;
-   top: 18px;
-   width: 27px;
-   height: 9px;
-   left: 58%;
-   font: normal normal normal 10px/9px Roboto;
-   color: black;
+  position: absolute;
+  top: 25px;
+  width: 27px;
+  height: 9px;
+  left: 58%;
+  font: normal normal normal 10px/9px Roboto;
+  color: black;
 }
 
 nav .profile p{
-   position: absolute;
-   top: 18px;
-   width: 27px;
-   height: 9px;
-   left: 82.2%;
-   font: normal normal normal 10px/9px Roboto;
-   color: black;
+  position: absolute;
+  top: 25px;
+  width: 27px;
+  height: 9px;
+  left: 82.2%;
+  font: normal normal normal 10px/9px Roboto;
+  color: black;
+}
+.ko button{
+   position: relative;
+   top: 150px;
+   left: 5px;
+}
+.ba button{
+   position: relative;
+   top: 150px;
+   left: 5px;
+}
+.ar button{
+   position: relative;
+   top: 150px;
+   left: 5px;
+}
+.br button{
+   position: relative;
+   top: 150px;
+   left: 5px;
 }
 
+.it button{
+   position: relative;
+   top: 125px;
+   left: 5px;
+}
+
+.ot button{
+   position: relative;
+   top: 150px;
+   left: 5px;
+}
 .saleBox .btn{
    margin-right: 130%;
    position: fixed;
@@ -303,6 +334,8 @@ nav .profile p{
   padding: 12px;
   display: none;
 }
+
+
 
 .sale p{
    margin: 0 0 0 0;
@@ -354,4 +387,8 @@ box-shadow: 0px 3px 6px #00000029;
    margin-left: 90%;
    border: 1.5px solid #F54848;
    border-radius: 50%;
+}
+
+.saleBox input:active{
+   display: unset;
 }

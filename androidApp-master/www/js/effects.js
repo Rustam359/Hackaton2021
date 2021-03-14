@@ -25,4 +25,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-  
+let pay = document.body.querySelector('.pay')
+let odin = document.body.querySelector('.odin')
+
+pay.addEventListener('click', function(){
+  body.odin.style.backgroundColor = 'red';
+})
